@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
+
   mostrar-hola-mundo:
 
     runs-on: ubuntu-latest
@@ -24,4 +25,4 @@ jobs:
         run: npm install
 
       - name: Ejecutar script
-        run: main.js
+        run: node main.js
